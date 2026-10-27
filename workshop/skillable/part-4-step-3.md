@@ -42,7 +42,7 @@ async def main() -> None:
     # 3. Connect to the Cupcake Store MCP server
     mcp_tool = MCPStreamableHTTPTool(
         name="cupcake-store",
-        url="https://ca-cupcake-mcp.jollyplant-ed217b0d.eastus.azurecontainerapps.io/mcp/",
+        url="https://ca-cupcake-mcp-dev-f776-net.purplepond-6465a08a.eastus2.azurecontainerapps.io/mcp/",
     )
     await mcp_tool.connect()
 
